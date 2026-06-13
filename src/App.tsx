@@ -115,7 +115,7 @@ export default function App() {
         id="app-header"
         className="sticky top-0 z-40 w-full border-b border-neutral-200 bg-white/90 shadow-2xs backdrop-blur-md"
       >
-        <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
+        <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8 bg-[linear-gradient(to_right,rgba(255,255,255,0.94),rgba(253,230,138,0.88),rgba(209,250,229,0.94)),url('https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&fit=crop&q=80&w=1200')] bg-cover bg-center bg-no-repeat border-b border-emerald-500/10">
           
           {/* Brand Identity */}
           <div
