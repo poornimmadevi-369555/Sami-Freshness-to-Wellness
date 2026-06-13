@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Helvetica Neue', Helvetica, 'Inter', Arial, sans-serif;
+  --font-serif: 'Georgia', 'Lora', serif;
+
+  --color-natural-bg: #f7f6f2;
+  --color-natural-ink: #2a2c24;
+  --color-natural-moss: #4d5d4b;
+  --color-natural-clay: #bfa286;
+  --color-natural-cream: #ffffff;
+
+  /* Redefine emerald colors to Moss tones */
+  --color-emerald-50: #f4f5f2;
+  --color-emerald-100: #e5e8e1;
+  --color-emerald-200: #cbd1c7;
+  --color-emerald-300: #abb4a7;
+  --color-emerald-400: #869281;
+  --color-emerald-500: #677562;
+  --color-emerald-600: #4d5d4b; /* Core moss */
+  --color-emerald-700: #3f4c3d;
+  --color-emerald-800: #333e31;
+  --color-emerald-900: #293127;
+  --color-emerald-950: #141813;
+
+  /* Redefine neutral colors to warm ink-based gray tones */
+  --color-neutral-50: #f7f6f2; /* var(--bg-color) */
+  --color-neutral-100: #efede7;
+  --color-neutral-200: #e2dfd5;
+  --color-neutral-300: #cdc7b9;
+  --color-neutral-400: #bfa286; /* mapped directly to clay! */
+  --color-neutral-500: #8c8678;
+  --color-neutral-600: #686358;
+  --color-neutral-700: #4a463e;
+  --color-neutral-800: #33302a;
+  --color-neutral-900: #2a2c24; /* pure ink */
+  --color-neutral-950: #1b1c16;
+}
+
+/* Custom scroll behavior and defaults */
+html {
+  scroll-behavior: smooth;
+  background-color: #f7f6f2;
+}
+
+body {
+  background-color: #f7f6f2;
+  color: #2a2c24;
+}
+
+
